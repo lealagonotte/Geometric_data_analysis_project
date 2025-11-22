@@ -95,12 +95,12 @@ nvidia-nvtx-cu12==12.8.90
 opt-einsum==3.4.0
 optax==0.2.6
 orbax-checkpoint==0.11.28
-ott-jax @ file:///home/phalafail/MVA/Geometric_data_analysis_project/Perturb-OT/ott
+ott-jax @ file://./Perturb-OT/ott
 packaging==24.2
 pandas==2.3.3
 parso==0.8.5
 patsy==1.0.2
-perturbot @ file:///home/phalafail/MVA/Geometric_data_analysis_project/Perturb-OT/perturbot
+perturbot @ file://./Perturb-OT/perturbot
 pexpect==4.9.0
 pillow==12.0.0
 platformdirs==4.5.0
@@ -127,7 +127,7 @@ rich==14.2.0
 scanpy==1.11.5
 scikit-learn==1.7.2
 scipy==1.16.3
-scvi-tools @ file:///home/phalafail/MVA/Geometric_data_analysis_project/Perturb-OT/scvi-tools
+scvi-tools @ file://./Perturb-OT/scvi-tools
 seaborn==0.13.2
 session-info2==0.2.3
 setuptools==80.9.0
