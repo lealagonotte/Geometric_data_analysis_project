@@ -25,20 +25,22 @@ source .venv/bin/activate
 uv sync
 ```
 
-5) Clone the patched PerturbOT repo
+5) Clone the patched PerturbOT repo and switch to the colab branch
 ```bash
 git clone https://github.com/raphaelrubrice/Perturb-OT.git
+git checkout raph-colab
 ```
 
 6) Install depedencies
 ```bash
 uv pip install -r requirements-env.txt
 ```
-Or simply
+Or, if you dont use uv
 ```bash
 pip install -r requirements-env.txt
 ```
 
+> You should be all set to use the repo's env :D. If you did not clone my patched PerturbOT repo but instead cloned the original, below is a description of the patch so you can reproduce it.
 
 ## **How to patch the original Perturb-OT repo for installation**
 Once the virtual env and the repo are setup do the following (follow order).
