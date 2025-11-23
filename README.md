@@ -9,7 +9,7 @@ Let's use the modern package management system for python called [uv](https://gi
 
 2) Clone the repo
 ```bash
-git clone --recurse-submodules https://github.com/lealagonotte/Geometric_data_analysis_project.git
+git clone https://github.com/lealagonotte/Geometric_data_analysis_project.git
 ```
 
 3) Go to the current repo (Geometric_data_analysis_project) and create a virtual environment
@@ -25,7 +25,22 @@ source .venv/bin/activate
 uv sync
 ```
 
-## **How to patch Perturb-OT for installation**
+5) Clone the patched PerturbOT repo
+```bash
+git clone https://github.com/raphaelrubrice/Perturb-OT.git
+```
+
+6) Install depedencies
+```bash
+uv pip install -r requirements-env.txt
+```
+Or simply
+```bash
+pip install -r requirements-env.txt
+```
+
+
+## **How to patch the original Perturb-OT repo for installation**
 Once the virtual env and the repo are setup do the following (follow order).
 
 ### Patching `perturbot` package installation
